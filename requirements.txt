@@ -1,7 +1,6 @@
-pandas
-seaborn
-numpy
-pyplot
+dash
 dash-core-components
 dash-html-components
-dash
+pandas
+plotly
+gunicorn
