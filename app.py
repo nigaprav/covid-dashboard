@@ -51,6 +51,7 @@ temp_df = c_df[['Date','Confirmed']]
 
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+server = app.server
 app.layout = html.Div([
     html.H1('COVID-19 Data Analysis', style={'color': '#000000', 'textAlign': 'center','fontSize': 60,'fontFamily': 'Segoe UI, Arial, sans-serif',
         'fontWeight': 'bold'}),
