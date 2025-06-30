@@ -1,0 +1,7 @@
+pandas
+seaborn
+numpy
+pyplot
+dash-core-components
+dash-html-components
+dash
